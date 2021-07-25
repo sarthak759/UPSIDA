@@ -1,0 +1,117 @@
+/* global */
+a{
+    text-decoration: none;
+}
+
+/* moving line */
+.moving_line{
+    color: black;
+    text-decoration: none;
+}
+.moving_line:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+/* important links header at the top */
+.imp_links{
+    color: #ffffff;
+    
+
+}
+.imp_link1{
+   align-items: center;
+   padding: 1%;
+   margin-left: 10%;
+   background-color: red;
+   
+}
+.imp_link2{
+    align-items: center;
+    color: #ffffff;
+    padding: 1%;
+    background-color: blue;
+ }
+ .imp_link3{
+    align-items: center;
+    color: #ffffff;
+    padding: 1%;
+    background-color: green;
+ }
+ .imp_link4{
+    align-items: center;
+    color: #ffffff;
+    padding: 1%;
+    background-color: yellow;
+ }
+ .imp_link5{
+    align-items: center;
+    color: #ffffff;
+    padding: 1%;
+    background-color: violet;
+ }
+.imp_links_head{
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+/* Imp peoples images and info */
+.alumani{
+    
+    margin: 4% 5%;
+    border-width: 1px;
+    border-color: black;
+    border-style: dashed;
+}
+.service_box{
+    text-align: center;
+}
+.service_box_para{
+    text-align: center;
+    margin: 7% 10%;
+}
+.alumani_images_topm{
+    padding: 5% 4% 0 0;
+    width: 150%;
+}
+.alumani_images_top{
+    padding: 5% 4% 0 0;
+    width: 80%;
+}
+.alumani_images_bottom{
+    padding: 2%;
+    width: 90%;
+}
+.alumani_images_bottomk{
+    padding: 2%;
+    width: 160%;
+}
+/* carousel */
+#achievements{
+    align-items: center;
+}
+.carousel-item{
+    padding-left: 22%;
+    align-items: center;
+}
+.carousel-image{
+    width: 66%;
+    align-items: center;
+}
+
+/* important links at the bottom */
+.important-links{
+    padding: 5% 0;
+    align-items: center;
+}
+.important-links-heading{
+    padding: 0 35%;
+}
+.important-links-image1{
+    margin-left: 10%;
+}
+.important-links-image3{
+    margin-right: 5%;
+    width: 280px;
+    height: 75px;
+}
