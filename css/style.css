@@ -1,4 +1,10 @@
 /* global */
+body{
+    margin: 0 5%;
+    padding: 0 5%;
+    border-width: 1px;
+    border-style: solid;
+}
 a{
     text-decoration: none;
 }
@@ -58,14 +64,39 @@ a{
 /* Imp peoples images and info */
 .alumani{
     
-    margin: 4% 5%;
-    border-width: 1px;
+    margin: 4% 0;
+    /* border-width: 1px;
     border-color: black;
-    border-style: dashed;
+    border-style: dashed; */
 }
 .service_box{
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
 }
+.service_box_2{
+    text-align: center;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+}
+.service_box_3{
+    text-align: center;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+}
+.service_box_4{
+    text-align: center;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+}
+
 .service_box_para{
     text-align: center;
     margin: 7% 10%;
@@ -86,6 +117,7 @@ a{
     padding: 2%;
     width: 160%;
 }
+
 /* carousel */
 #achievements{
     align-items: center;
