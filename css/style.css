@@ -1,12 +1,50 @@
 /* global */
 body{
     margin: 0 5%;
-    padding: 0 5%;
+    /* padding: 0 5%;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
 }
 a{
     text-decoration: none;
+}
+
+ul{
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+}
+.full{
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 5%;
+}
+/* header and navbar */
+.nav-section{
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 5%;
+    margin-bottom: 2%;
+}
+.office_icon{
+  color: black;
+}
+.color{
+  background-color: #0A62D0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0A62D0;
+  
+}
+
+.award-image{
+    width: 33%;
+    margin-left: 35%;
+}
+
+.nav-item:hover{
+   background-color:#ECECEC;
 }
 
 /* moving line */
@@ -22,13 +60,11 @@ a{
 /* important links header at the top */
 .imp_links{
     color: #ffffff;
-    
-
 }
 .imp_link1{
    align-items: center;
    padding: 1%;
-   margin-left: 10%;
+   /* margin-left: 10%; */
    background-color: red;
    
 }
@@ -56,10 +92,9 @@ a{
     padding: 1%;
     background-color: violet;
  }
-.imp_links_head{
-    border-width: 2px;
-    border-radius: 10px;
-}
+/* .imp_links_head{
+    
+} */
 
 /* Imp peoples images and info */
 .alumani{
@@ -71,32 +106,31 @@ a{
 }
 .service_box{
     text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
     max-width: 500px;
 }
 .service_box_2{
     text-align: center;
     padding-bottom: 2%;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
     max-width: 500px;
 }
 .service_box_3{
     text-align: center;
     padding-bottom: 1%;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
     max-width: 500px;
 }
 .service_box_4{
     text-align: center;
     padding-bottom: 1px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
     max-width: 500px;
 }
-
+.service_box:hover{
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
 .service_box_para{
     text-align: center;
     margin: 7% 10%;
